@@ -44,7 +44,7 @@ public class CheckOutPage extends CommonUtils
 		 act.sendKeys(country,countryName).build().perform();
 		 waitForElementToAppear(results);
 		 selectCountry.click();
-
+		 
 	}
 	
 	public ConfirmationPage submitOrder() throws InterruptedException
